@@ -1,0 +1,21 @@
+{
+  "name": "Copper Trail Plumbing",
+  "short_name": "Copper Trail",
+  "description": "Mesa, AZ plumber — water heaters, drain cleaning, slab leaks, repiping. Call (520) 348-0490.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#1a2744",
+  "theme_color": "#b5651d",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

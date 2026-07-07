@@ -61,7 +61,7 @@ export default function About() {
             </div>
             <div>
               <img
-                src="/manus-storage/team_truck_427b2c15.jpg"
+                src="/images/team_truck.jpg"
                 alt="Copper Trail Plumbing truck in Mesa AZ neighborhood"
                 className="w-full rounded-xl shadow-2xl object-cover"
                 style={{ aspectRatio: "4/3" }}
@@ -117,7 +117,7 @@ export default function About() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <img
-                src="/manus-storage/repiping_665ace9b.jpg"
+                src="/images/repiping.jpg"
                 alt="Licensed plumber working on copper pipes in Mesa AZ"
                 className="w-full rounded-xl shadow-xl object-cover"
                 style={{ aspectRatio: "4/3" }}

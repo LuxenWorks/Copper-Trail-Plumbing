@@ -1,24 +1,85 @@
 <!doctype html>
 <html lang="en">
-
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
     <title>Copper Trail Plumbing | Mesa, AZ Plumber | (520) 348-0490</title>
     <meta name="description" content="Copper Trail Plumbing serves Mesa, AZ homeowners with fast, reliable plumbing services. Water heaters, drain cleaning, slab leak detection, and more. Call (520) 348-0490." />
     <meta name="keywords" content="plumber Mesa AZ, plumbing Mesa Arizona, water heater repair Mesa, drain cleaning Mesa, slab leak detection Mesa, emergency plumber Mesa" />
+
+    <!-- Canonical -->
+    <link rel="canonical" href="https://www.coppertrailplumbing.com/" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.coppertrailplumbing.com/" />
+    <meta property="og:title" content="Copper Trail Plumbing | Mesa, AZ Plumber" />
+    <meta property="og:description" content="Fast, honest plumbing in Mesa, AZ. Water heaters, drain cleaning, slab leaks, repiping. Call (520) 348-0490." />
+    <meta property="og:image" content="/images/hero.jpg" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Copper Trail Plumbing | Mesa, AZ Plumber" />
+    <meta name="twitter:description" content="Fast, honest plumbing in Mesa, AZ. Call (520) 348-0490." />
+    <meta name="twitter:image" content="/images/hero.jpg" />
+
+    <!-- Favicons -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <meta name="theme-color" content="#1a2744" />
+
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Source+Serif+4:ital,wght@0,300;0,400;0,600;1,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
-  </head>
 
+    <!-- Local Business Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Plumber",
+      "name": "Copper Trail Plumbing",
+      "url": "https://www.coppertrailplumbing.com",
+      "telephone": "+15203480490",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "506 E Juanita Ave",
+        "addressLocality": "Mesa",
+        "addressRegion": "AZ",
+        "postalCode": "85204",
+        "addressCountry": "US"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 33.3942,
+        "longitude": -111.8145
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+          "opens": "07:00",
+          "closes": "19:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Saturday",
+          "opens": "08:00",
+          "closes": "17:00"
+        }
+      ],
+      "priceRange": "$$",
+      "areaServed": "Mesa, AZ",
+      "description": "Copper Trail Plumbing serves Mesa, AZ homeowners with fast, reliable plumbing services including water heater repair, drain cleaning, slab leak detection, and repiping."
+    }
+    </script>
+
+    <!-- Analytics placeholder: replace with your own Google Analytics or Umami tag -->
+    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script> -->
+  </head>
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
-    <script
-      defer
-      src="%VITE_ANALYTICS_ENDPOINT%/umami"
-      data-website-id="%VITE_ANALYTICS_WEBSITE_ID%"></script>
   </body>
-
 </html>

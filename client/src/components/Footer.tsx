@@ -39,7 +39,7 @@ export default function Footer() {
         {/* Brand */}
         <div className="lg:col-span-1">
           <img
-            src="/manus-storage/logo_50d3507d.png"
+            src="/images/logo.png"
             alt="Copper Trail Plumbing"
             className="h-16 w-auto object-contain mb-4"
           />

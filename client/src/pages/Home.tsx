@@ -20,42 +20,42 @@ const services = [
     title: "Water Heater Services",
     desc: "Mesa's hard water destroys water heaters fast. We repair, replace, and install tank and tankless systems. Same-day service available.",
     href: "/services/water-heater",
-    img: "/manus-storage/water_heater_a76ae6d6.jpg",
+    img: "/images/water_heater.jpg",
   },
   {
     icon: Droplets,
     title: "Drain Cleaning",
     desc: "Slow drains and stubborn clogs cleared with professional-grade equipment. We don't just push the clog down — we clear it completely.",
     href: "/services/drain-cleaning",
-    img: "/manus-storage/drain_cleaning_39693e42.jpg",
+    img: "/images/drain_cleaning.jpg",
   },
   {
     icon: Shield,
     title: "Slab Leak Detection",
     desc: "Shifting clay soils crack copper lines under your slab. We use electronic detection equipment to find leaks without tearing up your floor.",
     href: "/services/slab-leak-detection",
-    img: "/manus-storage/slab_leak_f2361126.jpg",
+    img: "/images/slab_leak.jpg",
   },
   {
     icon: Wrench,
     title: "Repiping",
     desc: "Old galvanized or failing pipes replaced with durable copper or PEX. We repipe whole homes with minimal disruption.",
     href: "/services/repiping",
-    img: "/manus-storage/repiping_665ace9b.jpg",
+    img: "/images/repiping.jpg",
   },
   {
     icon: Droplets,
     title: "Water Treatment",
     desc: "Mesa water runs 12–22 grains per gallon of hardness. We install whole-house softeners and filtration systems that protect your pipes and appliances.",
     href: "/services/water-treatment",
-    img: "/manus-storage/water_softener_2bb3530d.jpg",
+    img: "/images/water_softener.jpg",
   },
   {
     icon: Wrench,
     title: "Toilet & Fixture Repair",
     desc: "Running toilets, dripping faucets, and broken fixtures fixed right. We carry common parts on the truck so most repairs are done in one visit.",
     href: "/services",
-    img: "/manus-storage/toilet_repair_6103268f.jpg",
+    img: "/images/toilet_repair.jpg",
   },
 ];
 
@@ -140,7 +140,7 @@ export default function Home() {
         {/* Background image */}
         <div className="absolute inset-0">
           <img
-            src="/manus-storage/hero_ba1b168d.jpg"
+            src="/images/hero.jpg"
             alt="Professional plumber working in Mesa AZ home"
             className="w-full h-full object-cover object-center"
           />
@@ -338,7 +338,7 @@ export default function Home() {
             </div>
             <div className="relative">
               <img
-                src="/manus-storage/team_truck_427b2c15.jpg"
+                src="/images/team_truck.jpg"
                 alt="Copper Trail Plumbing service truck in Mesa AZ"
                 className="w-full rounded-xl shadow-2xl object-cover"
                 style={{ aspectRatio: "4/3" }}
@@ -486,7 +486,7 @@ export default function Home() {
         <div
           className="absolute inset-0 opacity-10"
           style={{
-            backgroundImage: `url('/manus-storage/mesa_az_bg_bba407ae.jpg')`,
+            backgroundImage: `url('/images/mesa_az_bg.jpg')`,
             backgroundSize: "cover",
             backgroundPosition: "center",
           }}

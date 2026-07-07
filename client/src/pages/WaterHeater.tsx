@@ -73,7 +73,7 @@ export default function WaterHeater() {
             {/* Hero image — rises from bottom of section */}
             <div className="relative self-end">
               <img
-                src="/manus-storage/water_heater_a76ae6d6.jpg"
+                src="/images/water_heater.jpg"
                 alt="Professional water heater installation in Mesa AZ"
                 className="w-full rounded-t-xl shadow-2xl object-cover object-top"
                 style={{ maxHeight: "420px" }}
@@ -162,14 +162,14 @@ export default function WaterHeater() {
             {[
               {
                 title: "Tank Water Heaters",
-                img: "/manus-storage/water_heater_a76ae6d6.jpg",
+                img: "/images/water_heater.jpg",
                 pros: ["Lower upfront cost", "Simple installation", "Works during power outages (gas)", "Familiar technology"],
                 cons: ["Standby heat loss", "Shorter lifespan in hard water", "Limited hot water supply"],
                 best: "Best for: Budget-conscious homeowners or smaller households",
               },
               {
                 title: "Tankless Water Heaters",
-                img: "/manus-storage/repiping_665ace9b.jpg",
+                img: "/images/repiping.jpg",
                 pros: ["Endless hot water", "Energy efficient", "Longer lifespan (20+ years)", "Space saving"],
                 cons: ["Higher upfront cost", "May need gas line upgrade", "Requires water softener in Mesa"],
                 best: "Best for: Larger families or homeowners planning to stay long-term",

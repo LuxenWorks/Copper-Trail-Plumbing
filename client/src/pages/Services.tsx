@@ -17,7 +17,7 @@ const services = [
     title: "Water Heater Repair & Installation",
     desc: "Mesa's hard water is brutal on water heaters. Sediment builds up fast, causing noisy operation, inconsistent hot water, and early failure. We repair all brands and install tank and tankless systems. We carry parts for most common units on our trucks, so same-day repair is usually possible.",
     href: "/services/water-heater",
-    img: "/manus-storage/water_heater_a76ae6d6.jpg",
+    img: "/images/water_heater.jpg",
     bullets: ["Tank & tankless water heaters", "Same-day repair available", "Annual flush & maintenance", "Energy-efficient upgrades"],
   },
   {
@@ -25,7 +25,7 @@ const services = [
     title: "Drain Cleaning & Sewer Service",
     desc: "Kitchen grease, bathroom hair, and hard water minerals make drain clogs a constant problem in Mesa homes. We use professional-grade equipment — not just a plunger — to clear the line completely. For serious blockages, our hydro-jetting service blasts away years of buildup.",
     href: "/services/drain-cleaning",
-    img: "/manus-storage/drain_cleaning_39693e42.jpg",
+    img: "/images/drain_cleaning.jpg",
     bullets: ["Drain snaking & augering", "Hydro-jetting service", "Sewer camera inspection", "Root intrusion removal"],
   },
   {
@@ -33,7 +33,7 @@ const services = [
     title: "Slab Leak Detection & Repair",
     desc: "Mesa's expansive clay soils shift with every monsoon and temperature swing, putting constant stress on copper pipes embedded in concrete slabs. We use electronic leak detection equipment to pinpoint the problem without tearing up your floor. Early detection saves thousands.",
     href: "/services/slab-leak-detection",
-    img: "/manus-storage/slab_leak_f2361126.jpg",
+    img: "/images/slab_leak.jpg",
     bullets: ["Electronic leak detection", "Non-invasive diagnosis", "Pipe rerouting options", "Trenchless repair methods"],
   },
   {
@@ -41,7 +41,7 @@ const services = [
     title: "Repiping Services",
     desc: "Homes built before the 1990s often have galvanized steel pipes that rust from the inside out, reducing water pressure and contaminating your water. We repipe whole homes with durable copper or PEX piping, restoring full water pressure and giving you decades of reliable service.",
     href: "/services/repiping",
-    img: "/manus-storage/repiping_665ace9b.jpg",
+    img: "/images/repiping.jpg",
     bullets: ["Whole-home repiping", "Copper & PEX options", "Minimal drywall damage", "Pressure restoration"],
   },
   {
@@ -49,7 +49,7 @@ const services = [
     title: "Water Treatment & Softeners",
     desc: "Mesa water runs 12–22 grains per gallon of hardness — officially classified as 'very hard.' That mineral buildup destroys water heaters, clogs pipes, and ruins appliances. A whole-house water softener pays for itself in extended appliance life and reduced repair bills.",
     href: "/services/water-treatment",
-    img: "/manus-storage/water_softener_2bb3530d.jpg",
+    img: "/images/water_softener.jpg",
     bullets: ["Whole-house water softeners", "Reverse osmosis systems", "Water filtration", "Scale prevention"],
   },
   {
@@ -57,7 +57,7 @@ const services = [
     title: "Toilet & Fixture Repair",
     desc: "Running toilets waste hundreds of gallons per month. Dripping faucets add up fast on your water bill. We repair and replace all types of toilets, faucets, showerheads, and fixtures. Most repairs are completed in a single visit because we stock common parts on our trucks.",
     href: "/services",
-    img: "/manus-storage/toilet_repair_6103268f.jpg",
+    img: "/images/toilet_repair.jpg",
     bullets: ["Toilet repair & replacement", "Faucet & fixture repair", "Showerhead installation", "Garbage disposal service"],
   },
 ];

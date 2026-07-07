@@ -72,7 +72,7 @@ export default function Navigation() {
           {/* Logo */}
           <Link href="/" className="flex items-center gap-3 group">
             <img
-              src="/manus-storage/logo_50d3507d.png"
+              src="/images/logo.png"
               alt="Copper Trail Plumbing Logo"
               className="h-12 w-auto object-contain"
             />

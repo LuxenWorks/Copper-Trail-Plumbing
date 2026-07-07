@@ -53,7 +53,7 @@ export default function DrainCleaning() {
             </div>
             <div className="relative self-end">
               <img
-                src="/manus-storage/drain_cleaning_39693e42.jpg"
+                src="/images/drain_cleaning.jpg"
                 alt="Professional drain cleaning service in Mesa AZ"
                 className="w-full rounded-t-xl shadow-2xl object-cover object-top"
                 style={{ maxHeight: "420px" }}
